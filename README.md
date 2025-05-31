@@ -43,15 +43,20 @@ Go to [http://localhost:5173](http://localhost:5173.) to view it in your browser
 📁 Project Structure
 ```pgsql
 Project-Analyser/
-├── public/ # Static assets
 ├── src/
-│ ├── components/ui/ # Reusable UI components (Button, Input, Card)
-│ ├── lib/ # Utility functions
-│ ├── HomePage.tsx # Main upload/clone interface
-│ ├── App.tsx # Root component
-│ ├── main.tsx # Entry point for Vite
-│ └── index.css # Tailwind base styles
+│ ├── components/ui/
+│ │   ├── button.tsx
+│ │   ├── cards.tsx
+│ │   ├── input.tsx
+│ ├── lib/
+│ │   ├── util.ts
+│ ├── HomePage.tsx 
+│ ├── App.tsx
+│ ├── main.tsx 
+│ └── index.css
 ├── .gitignore
+├── index.html
+├── package-lock.json
 ├── package.json
 ├── postcss.config.js
 ├── tailwind.config.js
